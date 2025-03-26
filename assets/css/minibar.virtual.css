@@ -559,48 +559,45 @@
 
 
 /* Footer */
+/* Footer */
 .vg-footer {
-    position: relative;
-    display: block;
-    margin: 0;
-    padding: 50px 0;
     background-color: #171925;
     color: #9FA2AB;
+    padding: 50px 0;
 }
 
-.footer-info {
-    max-width: 350px;
-}
-
-.vg-footer .list-unstyled a,
-.vg-footer .list-unstyled li {
-    margin-bottom: 6px;
-    font-size: 21px;
+.vg-footer h5 {
     color: #fff;
+    margin-bottom: 20px;
 }
 
-.vg-footer .form-control {
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #202334;
+.vg-footer p, .vg-footer a {
     color: #9FA2AB;
-    border: 0;
-    box-shadow: 0 2px 8px rgba(16, 18, 27, 0.6);
+    font-size: 16px;
 }
 
-.vg-footer .form-control:focus {
-    box-shadow: 0 2px 8px rgba(16, 18, 27, 0.6);
+.vg-footer a {
+    text-decoration: none; /* Remove underline from links */
 }
 
-.vg-footer form .btn-theme {
-    margin: 0;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    box-shadow: none;
-    border-radius: 0 4px 4px 0;
-    z-index: 9;
+.vg-footer a:hover {
+    color: #fff; /* Change color on hover */
 }
 
+.vg-footer .list-unstyled {
+    padding-left: 0; /* Remove default padding */
+}
+
+.vg-footer .list-unstyled li {
+    display: inline; /* Display list items inline */
+    margin-right: 15px; /* Space between links */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}
+
+/* Footer ending */
 /* Theme color style */
 /* Theme Red */
 .theme-red .topbar-nav .toggle-menu:hover {
