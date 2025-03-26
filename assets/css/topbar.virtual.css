@@ -675,7 +675,7 @@
       width: 0; /* Start with width 0 */
   }
   50% {
-      width: 45%; /* Full width of the text */
+      width: 80%; /* Full width of the text */
   }
   100% {
       width: 0; /* Reset to width 0 */
