@@ -660,3 +660,33 @@
 .theme-purple .post-grid .post-category {
   color: #6f42c1;
 }
+
+/* typing animation */
+#typing-text {
+  border-right: 2px solid; /* Cursor effect */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide the text that is not yet visible */
+  width: 0; /* Start with width 0 */
+  animation: typing 6s steps(20, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+      width: 0; /* Start with width 0 */
+  }
+  50% {
+      width: 45%; /* Full width of the text */
+  }
+  100% {
+      width: 0; /* Reset to width 0 */
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+      border-color: transparent; /* Invisible caret */
+  }
+  50% {
+      border-color: black; /* Visible caret */
+  }
+}
